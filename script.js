@@ -31,11 +31,3 @@ window.addEventListener('load', setRandomColor);
 window.addEventListener('load', setGradient);
 button.addEventListener('click', setRandomColor)
 button.addEventListener('click', setGradient);
-
-// Math.random().toString(16).substr(2, 6);
-/* on load need set color1.value to random hex and color2.value to random hex
-? use setAttribute
-
-function setRandomColor() {
-	input.setAttribute('value', randomHex)
-}*/
